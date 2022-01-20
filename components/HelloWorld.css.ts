@@ -7,5 +7,10 @@ export const root = style({
   transition: 'opacity .1s ease', // Testing autoprefixer
   ':hover': {
     opacity: 0.8
+  },
+  '@media': {
+    'screen and (min-width: 768px)': {
+      background: 'lightblue'
+    }
   }
 });
